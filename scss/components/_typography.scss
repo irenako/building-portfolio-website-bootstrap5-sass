@@ -24,7 +24,7 @@
   }
 }
 
-// HEADING LINE
+// heading line
 .heading-line::before {
   content: "";
   width: 10rem;
@@ -44,7 +44,7 @@
   background-color: $primary;
 }
 
-// DISPLAY 3
+// display 3
 .display-3 {
   font-family: "Poppins", sans-serif;
 
@@ -65,7 +65,7 @@
   }
 }
 
-// BORDER RIGHT
+// border right
 .border-right {
   border-right: 0;
 
@@ -75,7 +75,7 @@
   }
 }
 
-// GRADIENT BG
+// gradient
 .gradient {
   background: linear-gradient(
     to right,
