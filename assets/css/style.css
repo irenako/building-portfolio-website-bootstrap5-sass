@@ -10836,7 +10836,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .display-2--description {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     display: inline-block;
   }
 }
@@ -10853,12 +10853,46 @@ textarea.form-control-lg {
 .heading-line::after {
   content: "";
   width: 2rem;
+  padding-top: 0.5rem;
   height: 0.2rem;
   display: block;
-  background-color: #9926f0;
-  padding-top: 0.5rem;
   margin: 0 auto;
   margin-bottom: 1rem;
+  background-color: #9926f0;
+}
+
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+.display-3--title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, #9926f0, #d122e3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
+}
+
+.border-right {
+  border-right: 0;
+}
+@media (min-width: 576px) {
+  .border-right {
+    border-right: 0.1rem solid #dee2e6;
+    height: 100%;
+  }
+}
+
+.gradient {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
 
 .menu {
